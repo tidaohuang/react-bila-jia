@@ -1,12 +1,15 @@
 
+import { GOOGLE_SHEET_URL } from '../helper/constants';
+import './footer.css';
+
 
 export default function Footer() {
     return (
         <div className="landing-main-footer py-3">
             <div className="container">
                 <div className="row mt-5 mb-5">
-                    <div className="col-xl-8 col-lg-8 col-md-6 col-sm-12">
-                        <div className="col-lg-6 text-lg-start text-center">
+                    <div className='my-footer-info'>
+                        <div className="text-lg-start text-center">
                             <div className="text-fixed-white op-7 fs-6">
                                 教會地址：新竹市公園路218號2樓之一
                             </div>
@@ -20,11 +23,9 @@ export default function Footer() {
                                 電話：03-5257677
                             </div>
                         </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div className="col-lg-6 text-lg-start text-center">
+                        <div className="text-lg-start text-center">
                             <div className="text-fixed-white op-7 fs-6">
-                                奉獻專戶：財團法人基督教比拉迦教會 [FIXME]
+                                奉獻專戶：財團法人基督教比拉迦教會
                             </div>
                             <div className="text-fixed-white op-7 fs-6">
                                 銀行 : 台灣土地銀行(005)新竹分行
@@ -45,19 +46,10 @@ export default function Footer() {
                     <div className="col-lg-6 text-lg-end text-center">
                         <ul className="list-unstyled fw-normal landing-footer-list mb-0">
                             <li>
-                                <a href="#" className="text-fixed-white op-8">Terms Of Service</a>
+                                <a className="text-fixed-white op-8">Privacy</a>
                             </li>
                             <li>
-                                <a href="#" className="text-fixed-white op-8">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-fixed-white op-8">Legal</a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-fixed-white op-8">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-fixed-white op-8">Report Abuse</a>
+                                <a href={GOOGLE_SHEET_URL} target='_blank' className="text-fixed-white op-8">Donate</a>
                             </li>
                         </ul>
                     </div>

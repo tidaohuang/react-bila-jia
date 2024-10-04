@@ -1,8 +1,8 @@
 
 
-export default function Section1() {
+export default function SectionServiceTable() {
     return (
-        <section className="section bg-white">
+        <section className="section bg-white" id="service-table">
             <div className="container">
                 <div className="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
                     <div className="flex-fill">
@@ -32,9 +32,9 @@ export default function Section1() {
                                     <td className="fs-6">林牧師</td>
                                     <td className="fs-6">楊中玉</td>
                                     <td className="fs-6">劉志慶</td>
-                                    <td className="fs-6">春明&蕭雄</td>
-                                    <td className="fs-6">小嵥&詩盈</td>
-                                    <td className="fs-6">中玉&麗芬</td>
+                                    <td className="fs-6">春明 & 蕭雄</td>
+                                    <td className="fs-6">小嵥 & 詩盈</td>
+                                    <td className="fs-6">中玉 & 麗芬</td>
                                     <td className="fs-6">-</td>
                                     <td className="fs-6">-</td>
                                 </tr>
@@ -43,10 +43,10 @@ export default function Section1() {
                                     <td className="fs-6">林牧師</td>
                                     <td className="fs-6">蕭麗芬</td>
                                     <td className="fs-6">張瑞文</td>
-                                    <td className="fs-6">湛英&恩慶&綺珮 [FIXME: gap]</td>
+                                    <td className="fs-6">湛英 & 恩慶<br/>綺珮</td>
                                     <td className="fs-6">師母</td>
-                                    <td className="fs-6">瑞文&湛英</td>
-                                    <td className="fs-6">中玉&瑞文</td>
+                                    <td className="fs-6">瑞文 & 湛英</td>
+                                    <td className="fs-6">中玉 & 瑞文</td>
                                     <td className="fs-6">喜樂&基石</td>
                                 </tr>
                             </tbody>

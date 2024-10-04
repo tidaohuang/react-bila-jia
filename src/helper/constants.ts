@@ -1,0 +1,3 @@
+
+
+export const GOOGLE_SHEET_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSeyFnmNY35XoQ8LQOsmw5HkahX6gYVrn5hLW_m3TZFIkd-OGg/viewform?pli=1&fbclid=IwY2xjawFsd5JleHRuA2FlbQIxMAABHb15_U0m9VfPR0L-aSnMGOIYitBdB4rdTRIYCeVhxn_yaXtX9vzVUljlaA_aem_ESG_0hf9arxiQIBZEybqBg';
