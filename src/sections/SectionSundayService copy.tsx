@@ -12,13 +12,13 @@ export default function SectionSundayService() {
                     <h3 className="fw-semibold mb-2">主日資訊</h3>
                 </div>
                 <div className="row gy-2">
-                    <div className="col-lg-3 col-md-12">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="card custom-card fs-6">
                             <div className="card-header">
                                 <div className="card-title fs-5">主日崇拜程序 2024.9.29</div>
                             </div>
                             <div className="card-body">
-                                <ol className="list-group list-group-numbered" id="sunday-service-ol">
+                                <ol className="list-group list-group-numbered">
                                     <li className="list-group-item d-sm-flex justify-content-between align-items-start">
                                         <div className="ms-2 me-auto text-muted">
                                             <div className="fw-medium fs-6 text-default">敬拜讚美</div>
@@ -68,7 +68,7 @@ export default function SectionSundayService() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-9 col-md-12">
+                    <div className="col-lg-9 col-md-6 col-sm-12">
                         <div className="card custom-card fs-6">
                             <div className="card-header">
                                 <div className="card-title fs-5">本周主日信息</div>

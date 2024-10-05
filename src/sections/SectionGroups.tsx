@@ -130,7 +130,7 @@ export default function SectionGroups() {
 
 
     return (
-        <section className="section bg-white">
+        <section className="section bg-light" id="groups">
             <div className="container">
                 <div className="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
                     <div className="flex-fill">
@@ -138,7 +138,7 @@ export default function SectionGroups() {
                         <p className="text-muted mb-0 fs-6">邀請您參加小組，建立肢體關係</p>
                     </div>
                 </div>
-                <div className="row text-start overflow-x">
+                <div className="row text-start">
                     {groups.map((group, index) => (
                         <div className="col-12 col-md-4 col-xl-2" key={index}>
                             <GroupCard

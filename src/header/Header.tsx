@@ -24,6 +24,9 @@ export default function Header() {
                                 <a href="#service-table" className="text-fixed-black">服事表</a>
                             </li>
                             <li>
+                                <a href="#groups" className="text-fixed-black">小組資訊</a>
+                            </li>                            
+                            <li>
                                 <a href="#prayer" className="text-fixed-black">代禱事項</a>
                             </li>
                             <li>

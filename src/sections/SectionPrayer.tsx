@@ -3,7 +3,7 @@ import PrayerCard from "./prayer/PrayerCard"
 
 export default function SectionPrayer() {
     return (
-        <section className="section bg-light" id="prayer">
+        <section className="section bg-white" id="prayer">
             <div className="container text-center">
                 <p className="fs-12 fw-semibold mb-1">
                     <span className="landing-section-heading text-gradient fs-5">9/22-9/28</span>

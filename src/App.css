@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    #my-footer {
+        display: none;
+    }
+
+    #my-banner {
+        display: none;
+    }
+
+
+
+    #sunday-service-ol li {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    #my-footer-mobile {
+        display: none;
+    }
+
+    #my-banner-mobile {
+        display: none;
+    }
+}
