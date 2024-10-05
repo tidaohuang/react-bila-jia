@@ -1,14 +1,11 @@
-
 import { GOOGLE_SHEET_URL } from '../helper/constants';
-import './footer.css';
-
 
 export default function Footer() {
     return (
         <div className="landing-main-footer py-3">
             <div className="container">
                 <div className="row mt-5 mb-5">
-                    <div className='my-footer-info'>
+                    <div className='d-flex justify-content-between flex-wrap'>
                         <div className="text-lg-start text-center">
                             <div className="text-fixed-white op-7 fs-6">
                                 教會地址：新竹市公園路218號2樓之一
@@ -39,19 +36,21 @@ export default function Footer() {
 
                 <div className="row">
                     <div className="col-lg-6 text-lg-start text-center">
-                        <span className="text-fixed-white op-7 fs-14"> © Copyright <span id="year">2024</span> <a
-                            href="#" className="text-primary fs-15 fw-semibold">Bila Jia Church</a>
-                        </span>
-                    </div>
-                    <div className="col-lg-6 text-lg-end text-center">
                         <ul className="list-unstyled fw-normal landing-footer-list mb-0">
-                            <li>
+                            <li style={{ paddingLeft: 0 }}>
                                 <a className="text-fixed-white op-8">Privacy</a>
                             </li>
                             <li>
                                 <a href={GOOGLE_SHEET_URL} target='_blank' className="text-fixed-white op-8">Donate</a>
                             </li>
                         </ul>
+
+                    </div>
+                    <div className="col-lg-6 text-lg-end text-center">
+
+                        <span className="text-fixed-white op-7 fs-14"> © Copyright <span id="year">2024</span> <a
+                            href="#" className="text-primary fs-15 fw-semibold">Bila Jia Church</a>
+                        </span>
                     </div>
                 </div>
             </div>

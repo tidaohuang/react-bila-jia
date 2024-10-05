@@ -5,6 +5,7 @@ import SectionServiceTable from "./sections/SectionServiceTable"
 import SectionPrayer from "./sections/SectionPrayer"
 import SectionWelcome from "./sections/SectionWelcome"
 import SectionSundayService from "./sections/SectionSundayService"
+import SectionGroups from "./sections/SectionGroups"
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 					<SectionSundayService />
 					<SectionServiceTable />
 					<SectionPrayer />
+					<SectionGroups />
 					{/* <SectionMain /> */}
 					{/* <Section2 /> */}
 				</div>
