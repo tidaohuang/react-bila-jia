@@ -9,14 +9,11 @@ import SectionSundayService from "./sections/SectionSundayService"
 import SectionGroups from "./sections/SectionGroups"
 import FooterMobile from './footer/FooterMobile';
 import BannerMobile from './sections/BannerMobile';
-import HeaderMobile from './header/HeaderMobile';
 
 function App() {
 	return (
 		<>
 			<Header />
-			{/* <HeaderMobile /> */}
-			{/* <div className="main-content landing-main px-0"> */}
 			<div className="landing-main px-0">
 				<div className="landing-banner ad-search-container">
 					<Banner />

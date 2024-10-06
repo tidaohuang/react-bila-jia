@@ -22,12 +22,10 @@ export default function PrayerCard({ title, excerpt, children, isFullWidth }: Pr
         >
             <div className="card custom-card featured-card-1 fs-6">
                 <div className="card-body p-4">
-                    <div className="d-flex mb-2 align-items-center">
-                        <div>
-                            <p className="mb-0 fw-semibold fs-16 text-primary fs-5">
-                                {title}
-                            </p>
-                        </div>
+                    <div className="mb-2">
+                        <p className="mb-0 fw-semibold fs-16 text-primary fs-5">
+                            {title}
+                        </p>
                     </div>
                     <span>
                         {clicked && children}

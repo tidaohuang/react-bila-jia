@@ -17,7 +17,7 @@ export default function GroupCard({ title, svg, target, time, color, leader, loc
     const [clicked, setClicked] = useState(false);
 
     return (
-        <div className="card custom-card" style={{ cursor: 'pointer' }}
+        <div className="card custom-card fs-6" style={{ cursor: 'pointer' }}
             onClick={(_) => setClicked(!clicked)}>
             <div className="card-body rounded">
                 <div className="d-flex align-items-center space-around mb-3">
@@ -32,25 +32,23 @@ export default function GroupCard({ title, svg, target, time, color, leader, loc
                     <span className="fw-semibold fs-5 ms-2">{title}</span>
                 </div>
 
-
-
                 {clicked === false &&
                     <>
-                        <h5 className="fs-6">
+                        <div className="fs-6">
                             {time}
-                        </h5>
-                        <h5 className="fs-6">對象：
+                        </div>
+                        <div className="fs-6">對象：
                             {target} ...
-                        </h5>
+                        </div>
                     </>
                 }
                 
                 {clicked &&
                     <>
-                        <h5 className="fs-6">{time}</h5>
-                        <h5 className="fs-6">對象：{target}</h5>
-                        <h5 className="fs-6">小組長：{leader}</h5>
-                        <h5 className="fs-6">地點：{location}</h5>
+                        <div className="fs-6">{time}</div>
+                        <div className="fs-6">對象：{target}</div>
+                        <div className="fs-6">小組長：{leader}</div>
+                        <div className="fs-6">地點：{location}</div>
                     </>
                 }
             </div>
