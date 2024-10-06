@@ -40,16 +40,11 @@ export default function GroupCard({ title, svg, target, time, color, leader, loc
                             {time}
                         </h5>
                         <h5 className="fs-6">對象：
-                            {target}
-                            <span className="fs-5">
-                                <i className="ms-2 ri-play-mini-line align-middle d-inline-block rtl-rotate"></i>
-                            </span>
+                            {target} ...
                         </h5>
                     </>
                 }
-
-
-
+                
                 {clicked &&
                     <>
                         <h5 className="fs-6">{time}</h5>

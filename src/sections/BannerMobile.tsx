@@ -10,7 +10,7 @@ export default function BannerMobile() {
                     <div className="col-xxl-9">
                         <div className="">
                             <div className="text-center">
-                                <p className="fs-30 op-7 text-fixed-white">
+                                <p className="fs-24 op-7 text-fixed-white">
                                     {getFullYear()}年度目標
                                 </p>
                                 <p className="landing-banner-heading mb-3 text-fixed-white">

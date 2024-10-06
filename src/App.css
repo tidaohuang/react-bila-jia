@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    #my-header {
+        display: none;
+    }
+
     #my-footer {
         display: none;
     }
@@ -15,6 +19,11 @@
 }
 
 @media (min-width: 768px) {
+    #my-header-mobile {
+        display: none;
+    }
+
+
     #my-footer-mobile {
         display: none;
     }
