@@ -29,7 +29,7 @@ export default function SectionServiceTable() {
                             <tbody>
                                 <tr>
                                     <th scope="row" className="fs-6">本周</th>
-                                    <td className="fs-6">林牧師</td>
+                                    <td className="fw-normal fs-6">林牧師</td>
                                     <td className="fs-6">楊中玉</td>
                                     <td className="fs-6">劉志慶</td>
                                     <td className="fs-6">春明 & 蕭雄</td>
