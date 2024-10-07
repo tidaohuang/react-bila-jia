@@ -18,8 +18,10 @@ function App() {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY !== 0) {
+			if (window.scrollY > 100) {
 				showScrollToTopButton(true);
+			} else {
+				showScrollToTopButton(false);
 			}
 		};
 
@@ -51,7 +53,9 @@ function App() {
 						showScrollToTopButton(false);
 					}}
 				>
-					<span className="arrow"><i className="fs-20">▲</i></span>
+					<span className="arrow">
+						<i className="ri-arrow-up-s-fill fs-20"></i>
+					</span>
 				</div>
 			}
 			<Footer />
